@@ -210,9 +210,15 @@ __marimo__/
 venv/
 .env/
 
-# Ignore data files
-data/
-models/
+# Ignore data contents but allow DVC pointer files
+data/*
+!data/raw.dvc
+!data/.gitkeep
+
+# Ignore model contents but allow future DVC pointer files
+models/*
+!models/.gitkeep
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
