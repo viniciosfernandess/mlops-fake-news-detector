@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+data/
+notebooks/
+mlruns/
+.git/
+.gitignore
