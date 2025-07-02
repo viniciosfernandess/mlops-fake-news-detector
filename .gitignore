@@ -213,7 +213,9 @@ venv/
 # Ignore data contents but allow DVC pointer files
 data/*
 !data/raw.dvc
+!data/processed.dvc
 !data/.gitkeep
+
 
 # Ignore model contents but allow future DVC pointer files
 models/*
@@ -222,3 +224,6 @@ models/*
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
+# MLflow experiment tracking
+mlruns/
+mlruns/
